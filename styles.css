@@ -1,5 +1,41 @@
 body{
   font-family: "Rubik";
+  background-color: hsl(0, 0%, 100%);
+}
+
+.App{
+  width: 30%;
+  height: 60%;
+  background-color: hsl(270, 20%, 96%);
+}
+
+.app-header{
+  background-image: linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
+  display: inline-block;
+
+}
+
+.circular{
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  padding: 0;
+}
+
+.sender{
+  background-color: hsl(206, 6%, 79%);
+  color: hsl(276, 55%, 52%);
+}
+
+.reciever{
+  background-color: White;
+  color: hsl(271, 15%, 43%);
+}
+
+.images img{
+  display: inline;
+  width: 50px;
+  border-radius: 5px;
 }
 
 h1{
