@@ -3,14 +3,40 @@ body{
   background-color: hsl(270, 20%, 96%);
 }
 
+.main{
+  display: flex;
+}
+
+.left_background {
+  width: 300px;
+  height: 500px;
+  border-radius: 300px;
+  background-image: linear-gradient(45deg, #8739ff, #e844ff);
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  z-index: -1;
+}
+
+.right_background{
+  width: 300px;
+  height: 500px;
+  background-color: rgba(128, 128, 128, 0.13);
+  position: absolute;
+  bottom: -100px;
+  right: -50px;
+  border-radius: 300px;
+  z-index: -1;
+}
+
 .App{
   width: 18%;
   height: 60%;
   background-color: hsl(270, 20%, 96%);
   border: 10px solid #fff;
   border-radius: 40px;
-  align-self: center;
 }
+
 
 .app-header{
   background: linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
@@ -20,7 +46,30 @@ body{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: #fff;
-  padding: 10px;
+  padding: 40px 20px 20px 30px ;
+}
+
+
+.dots__container {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.dots {
+  height: 4px;
+  width: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.app-header span {
+  color: white;
+  font-size: 20px;
+  margin-right: 7px;
+  margin-bottom: 12px;
 }
 
 .intro{
@@ -45,19 +94,34 @@ body{
 .circular{
   border: 2px solid #fff;
   border-radius: 50%;
-  width: 40px;
+  width: 25px;
   padding: 0;
-  margin-bottom: -5px;
+}
+
+.app-body{
+  padding: 10px;
 }
 
 .sender{
-  background-color: hsl(206, 6%, 79%);
+  background-color:hsl(270, 20%, 86%);
   color: hsl(276, 55%, 52%);
+  width: 150px;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom-left-radius: 2px;
 }
 
 .reciever{
   background-color: White;
   color: hsl(271, 15%, 43%);
+  width: 150px;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom-right-radius: 2px;
+}
+
+.images, .reciever{
+  margin-left: 90px;
 }
 
 .images img{
@@ -66,12 +130,32 @@ body{
   border-radius: 5px;
 }
 
+.last{
+  background-color: White;
+  padding: 4px 4px 4px 15px;
+  border: 0 solid transparent;
+  border-radius: 40px;
+}
+
+.container{
+  width: 500px;
+  padding: 40px;
+  flex: 75%;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 20px;
+  word-spacing: 5px;
+}
+
 h1{
   color: hsl(271, 36%, 24%);
 }
 
 p{
   color: hsl(270, 7%, 64%);
+  font-size: 11px;
 }
 
 .attribution {
