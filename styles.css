@@ -201,3 +201,26 @@ p{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 1000px) {
+
+  .right_background{
+    
+  }
+
+  .row{
+    display: grid;
+    margin: 20px 60px;
+  }
+
+  .container{
+    padding: 10px;
+  }
+
+  .container p{
+    text-align: justify;
+    word-spacing: normal;
+  }
+
+
+}
