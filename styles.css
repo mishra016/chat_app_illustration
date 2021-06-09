@@ -240,7 +240,7 @@ p{
   }
 
   .right_background{
-    bottom: -250px;
+    bottom: -280px;
     right: -100px
   }
 
@@ -271,9 +271,10 @@ p{
     bottom: 5.5rem;
     left: 20rem;
   }
-  
+
   .attribution{
-    text-align: center;
+    margin-left: 25px;
   }
+
 
 }
